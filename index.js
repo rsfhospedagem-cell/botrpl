@@ -469,7 +469,7 @@ if (interaction.isChatInputCommand() && interaction.commandName === 'release') {
   // apenas staff
   if (!CONFIG.ROLES.STAFF_ROLES.some(id => member.roles.cache.has(id))) {
     return interaction.reply({
-      content: 'Apenas staff pode usar este comando.',
+      content: 'Apenas managers pode usar este comando.',
       flags: MessageFlags.Ephemeral
     });
   }
