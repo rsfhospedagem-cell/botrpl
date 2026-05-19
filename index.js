@@ -66,8 +66,8 @@ const RELEASE_CHANNEL = '1493795659613077615';
 // ══════════════════════════════════════════════════
 
 const windowStatus = {
-  contracts: true,  // true = fechada
-  freeAgent: true,
+  contracts: false,  // true = fechada
+  freeAgent: false,
 };
 
 const pendingContracts = new Map();
